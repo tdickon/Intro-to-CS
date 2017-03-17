@@ -1,0 +1,22 @@
+//Expensive Calculator
+//Demonstrates Built in Arithmetic Operators
+
+#include <iostream> //part of the standard library that allows us to display output.
+using namespace std; //This is a declaration that calls on using the standard namespace, abbreviated as std.
+
+int main()
+{
+    cout << "7+3 = " << 7 + 3 << endl;
+    cout << "7-3 = " << 7 - 3 << endl;
+    cout << "7*3 = " << 7 * 3 << endl;
+
+    cout << "7/3 = " << 7 / 3 << endl;
+    cout << "7.0/3.0 = " << 7.0 / 3.0 << endl;
+
+    cout << "7%3 = " << 7 % 3 << endl;
+
+    cout << "7+3*5 = " << 7 + 3 * 5<< endl;
+    cout << "(7+3)*5 = " << (7 + 3) * 5 << endl;
+
+    return 0;
+}
