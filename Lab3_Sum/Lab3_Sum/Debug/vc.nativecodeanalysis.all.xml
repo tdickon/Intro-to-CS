@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+      <FILENAME>sum.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'outputNum'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'outputNum' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'inputNum!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>69</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'outputNum' is an In/Out argument to 'std::basic_ostream&lt;char,std::char_traits&lt;char&gt; &gt;::&lt;&lt;' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream:290)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\tyler\documents\visual studio 2015\projects\lab3_sum\lab3_sum\</FILEPATH>
+        <FILENAME>sum.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>69</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'outputNum' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
