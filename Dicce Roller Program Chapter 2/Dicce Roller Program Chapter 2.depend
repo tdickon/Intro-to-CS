@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1469754920 source:c:\users\tyler\documents\@c++ programming\dicce roller program chapter 2\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
