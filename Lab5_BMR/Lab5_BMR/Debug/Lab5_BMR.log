@@ -1,0 +1,5 @@
+﻿  BMR.cpp
+c:\users\tyler\documents\visual studio 2015\projects\lab5_bmr\lab5_bmr\bmr.cpp(57): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\tyler\documents\visual studio 2015\projects\lab5_bmr\lab5_bmr\bmr.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Lab5_BMR.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\Lab5_BMR\Debug\Lab5_BMR.exe
+  Lab5_BMR.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\Lab5_BMR\Debug\Lab5_BMR.pdb (Full PDB)

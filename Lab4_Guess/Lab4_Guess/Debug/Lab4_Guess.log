@@ -1,0 +1,4 @@
+﻿  guess.cpp
+c:\users\tyler\documents\visual studio 2015\projects\lab4_guess\lab4_guess\guess.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab4_Guess.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\Lab4_Guess\Debug\Lab4_Guess.exe
+  Lab4_Guess.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\Lab4_Guess\Debug\Lab4_Guess.pdb (Full PDB)
