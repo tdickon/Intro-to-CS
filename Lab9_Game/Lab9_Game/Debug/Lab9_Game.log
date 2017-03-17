@@ -1,0 +1,5 @@
+﻿  game.cpp
+c:\users\tyler dickon\documents\visual studio 2015\projects\lab9_game\lab9_game\game.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  battleshipFunctions.cpp
+  Generating Code...
+  Lab9_Game.vcxproj -> C:\Users\Tyler Dickon\Documents\Visual Studio 2015\Projects\Lab9_Game\Debug\Lab9_Game.exe
